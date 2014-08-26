@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4A3DD8419AD3D9300C87330 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A3DD8319AD3D9300C87330 /* Foundation.framework */; };
+		A4A3DD8619AD3D9300C87330 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A3DD8519AD3D9300C87330 /* CoreGraphics.framework */; };
+		A4A3DD8819AD3D9300C87330 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A3DD8719AD3D9300C87330 /* UIKit.framework */; };
+		A4A3DD8E19AD3D9300C87330 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4A3DD8C19AD3D9300C87330 /* InfoPlist.strings */; };
+		A4A3DD9019AD3D9300C87330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3DD8F19AD3D9300C87330 /* main.m */; };
+		A4A3DD9419AD3D9300C87330 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3DD9319AD3D9300C87330 /* AppDelegate.m */; };
+		A4A3DD9719AD3D9300C87330 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A3DD9519AD3D9300C87330 /* Main_iPhone.storyboard */; };
+		A4A3DD9A19AD3D9300C87330 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A3DD9819AD3D9300C87330 /* Main_iPad.storyboard */; };
+		A4A3DD9D19AD3D9300C87330 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3DD9C19AD3D9300C87330 /* FirstViewController.m */; };
+		A4A3DDA019AD3D9300C87330 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3DD9F19AD3D9300C87330 /* SecondViewController.m */; };
+		A4A3DDA219AD3D9300C87330 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A3DDA119AD3D9300C87330 /* Images.xcassets */; };
+		A4A3DDA919AD3D9300C87330 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A3DDA819AD3D9300C87330 /* XCTest.framework */; };
+		A4A3DDAA19AD3D9300C87330 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A3DD8319AD3D9300C87330 /* Foundation.framework */; };
+		A4A3DDAB19AD3D9300C87330 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A3DD8719AD3D9300C87330 /* UIKit.framework */; };
+		A4A3DDB319AD3D9300C87330 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4A3DDB119AD3D9300C87330 /* InfoPlist.strings */; };
+		A4A3DDB519AD3D9300C87330 /* Kinisi_ConfigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3DDB419AD3D9300C87330 /* Kinisi_ConfigTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4A3DDAC19AD3D9300C87330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4A3DD7819AD3D9300C87330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A3DD7F19AD3D9300C87330;
+			remoteInfo = "Kinisi Config";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4A3DD8019AD3D9300C87330 /* Kinisi Config.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kinisi Config.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A3DD8319AD3D9300C87330 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4A3DD8519AD3D9300C87330 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4A3DD8719AD3D9300C87330 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4A3DD8B19AD3D9300C87330 /* Kinisi Config-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kinisi Config-Info.plist"; sourceTree = "<group>"; };
+		A4A3DD8D19AD3D9300C87330 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4A3DD8F19AD3D9300C87330 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4A3DD9119AD3D9300C87330 /* Kinisi Config-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kinisi Config-Prefix.pch"; sourceTree = "<group>"; };
+		A4A3DD9219AD3D9300C87330 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4A3DD9319AD3D9300C87330 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4A3DD9619AD3D9300C87330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A4A3DD9919AD3D9300C87330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A4A3DD9B19AD3D9300C87330 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A4A3DD9C19AD3D9300C87330 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A4A3DD9E19AD3D9300C87330 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A4A3DD9F19AD3D9300C87330 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A4A3DDA119AD3D9300C87330 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4A3DDA719AD3D9300C87330 /* Kinisi ConfigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kinisi ConfigTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A3DDA819AD3D9300C87330 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A4A3DDB019AD3D9300C87330 /* Kinisi ConfigTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kinisi ConfigTests-Info.plist"; sourceTree = "<group>"; };
+		A4A3DDB219AD3D9300C87330 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4A3DDB419AD3D9300C87330 /* Kinisi_ConfigTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kinisi_ConfigTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4A3DD7D19AD3D9300C87330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3DD8619AD3D9300C87330 /* CoreGraphics.framework in Frameworks */,
+				A4A3DD8819AD3D9300C87330 /* UIKit.framework in Frameworks */,
+				A4A3DD8419AD3D9300C87330 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A3DDA419AD3D9300C87330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3DDA919AD3D9300C87330 /* XCTest.framework in Frameworks */,
+				A4A3DDAB19AD3D9300C87330 /* UIKit.framework in Frameworks */,
+				A4A3DDAA19AD3D9300C87330 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4A3DD7719AD3D9300C87330 = {
+			isa = PBXGroup;
+			children = (
+				A4A3DD8919AD3D9300C87330 /* Kinisi Config */,
+				A4A3DDAE19AD3D9300C87330 /* Kinisi ConfigTests */,
+				A4A3DD8219AD3D9300C87330 /* Frameworks */,
+				A4A3DD8119AD3D9300C87330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4A3DD8119AD3D9300C87330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3DD8019AD3D9300C87330 /* Kinisi Config.app */,
+				A4A3DDA719AD3D9300C87330 /* Kinisi ConfigTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4A3DD8219AD3D9300C87330 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3DD8319AD3D9300C87330 /* Foundation.framework */,
+				A4A3DD8519AD3D9300C87330 /* CoreGraphics.framework */,
+				A4A3DD8719AD3D9300C87330 /* UIKit.framework */,
+				A4A3DDA819AD3D9300C87330 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4A3DD8919AD3D9300C87330 /* Kinisi Config */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3DD9219AD3D9300C87330 /* AppDelegate.h */,
+				A4A3DD9319AD3D9300C87330 /* AppDelegate.m */,
+				A4A3DD9519AD3D9300C87330 /* Main_iPhone.storyboard */,
+				A4A3DD9819AD3D9300C87330 /* Main_iPad.storyboard */,
+				A4A3DD9B19AD3D9300C87330 /* FirstViewController.h */,
+				A4A3DD9C19AD3D9300C87330 /* FirstViewController.m */,
+				A4A3DD9E19AD3D9300C87330 /* SecondViewController.h */,
+				A4A3DD9F19AD3D9300C87330 /* SecondViewController.m */,
+				A4A3DDA119AD3D9300C87330 /* Images.xcassets */,
+				A4A3DD8A19AD3D9300C87330 /* Supporting Files */,
+			);
+			path = "Kinisi Config";
+			sourceTree = "<group>";
+		};
+		A4A3DD8A19AD3D9300C87330 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3DD8B19AD3D9300C87330 /* Kinisi Config-Info.plist */,
+				A4A3DD8C19AD3D9300C87330 /* InfoPlist.strings */,
+				A4A3DD8F19AD3D9300C87330 /* main.m */,
+				A4A3DD9119AD3D9300C87330 /* Kinisi Config-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4A3DDAE19AD3D9300C87330 /* Kinisi ConfigTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3DDB419AD3D9300C87330 /* Kinisi_ConfigTests.m */,
+				A4A3DDAF19AD3D9300C87330 /* Supporting Files */,
+			);
+			path = "Kinisi ConfigTests";
+			sourceTree = "<group>";
+		};
+		A4A3DDAF19AD3D9300C87330 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3DDB019AD3D9300C87330 /* Kinisi ConfigTests-Info.plist */,
+				A4A3DDB119AD3D9300C87330 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4A3DD7F19AD3D9300C87330 /* Kinisi Config */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A3DDB819AD3D9300C87330 /* Build configuration list for PBXNativeTarget "Kinisi Config" */;
+			buildPhases = (
+				A4A3DD7C19AD3D9300C87330 /* Sources */,
+				A4A3DD7D19AD3D9300C87330 /* Frameworks */,
+				A4A3DD7E19AD3D9300C87330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kinisi Config";
+			productName = "Kinisi Config";
+			productReference = A4A3DD8019AD3D9300C87330 /* Kinisi Config.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4A3DDA619AD3D9300C87330 /* Kinisi ConfigTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A3DDBB19AD3D9300C87330 /* Build configuration list for PBXNativeTarget "Kinisi ConfigTests" */;
+			buildPhases = (
+				A4A3DDA319AD3D9300C87330 /* Sources */,
+				A4A3DDA419AD3D9300C87330 /* Frameworks */,
+				A4A3DDA519AD3D9300C87330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4A3DDAD19AD3D9300C87330 /* PBXTargetDependency */,
+			);
+			name = "Kinisi ConfigTests";
+			productName = "Kinisi ConfigTests";
+			productReference = A4A3DDA719AD3D9300C87330 /* Kinisi ConfigTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4A3DD7819AD3D9300C87330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Kinisi;
+				TargetAttributes = {
+					A4A3DDA619AD3D9300C87330 = {
+						TestTargetID = A4A3DD7F19AD3D9300C87330;
+					};
+				};
+			};
+			buildConfigurationList = A4A3DD7B19AD3D9300C87330 /* Build configuration list for PBXProject "Kinisi Config" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4A3DD7719AD3D9300C87330;
+			productRefGroup = A4A3DD8119AD3D9300C87330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4A3DD7F19AD3D9300C87330 /* Kinisi Config */,
+				A4A3DDA619AD3D9300C87330 /* Kinisi ConfigTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4A3DD7E19AD3D9300C87330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3DD9A19AD3D9300C87330 /* Main_iPad.storyboard in Resources */,
+				A4A3DDA219AD3D9300C87330 /* Images.xcassets in Resources */,
+				A4A3DD9719AD3D9300C87330 /* Main_iPhone.storyboard in Resources */,
+				A4A3DD8E19AD3D9300C87330 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A3DDA519AD3D9300C87330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3DDB319AD3D9300C87330 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4A3DD7C19AD3D9300C87330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3DDA019AD3D9300C87330 /* SecondViewController.m in Sources */,
+				A4A3DD9419AD3D9300C87330 /* AppDelegate.m in Sources */,
+				A4A3DD9D19AD3D9300C87330 /* FirstViewController.m in Sources */,
+				A4A3DD9019AD3D9300C87330 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A3DDA319AD3D9300C87330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A3DDB519AD3D9300C87330 /* Kinisi_ConfigTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4A3DDAD19AD3D9300C87330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A3DD7F19AD3D9300C87330 /* Kinisi Config */;
+			targetProxy = A4A3DDAC19AD3D9300C87330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4A3DD8C19AD3D9300C87330 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4A3DD8D19AD3D9300C87330 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4A3DD9519AD3D9300C87330 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4A3DD9619AD3D9300C87330 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A4A3DD9819AD3D9300C87330 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4A3DD9919AD3D9300C87330 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A4A3DDB119AD3D9300C87330 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4A3DDB219AD3D9300C87330 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4A3DDB619AD3D9300C87330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4A3DDB719AD3D9300C87330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4A3DDB919AD3D9300C87330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kinisi Config/Kinisi Config-Prefix.pch";
+				INFOPLIST_FILE = "Kinisi Config/Kinisi Config-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4A3DDBA19AD3D9300C87330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kinisi Config/Kinisi Config-Prefix.pch";
+				INFOPLIST_FILE = "Kinisi Config/Kinisi Config-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A4A3DDBC19AD3D9300C87330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kinisi Config.app/Kinisi Config";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kinisi Config/Kinisi Config-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kinisi ConfigTests/Kinisi ConfigTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A4A3DDBD19AD3D9300C87330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kinisi Config.app/Kinisi Config";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kinisi Config/Kinisi Config-Prefix.pch";
+				INFOPLIST_FILE = "Kinisi ConfigTests/Kinisi ConfigTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4A3DD7B19AD3D9300C87330 /* Build configuration list for PBXProject "Kinisi Config" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A3DDB619AD3D9300C87330 /* Debug */,
+				A4A3DDB719AD3D9300C87330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A3DDB819AD3D9300C87330 /* Build configuration list for PBXNativeTarget "Kinisi Config" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A3DDB919AD3D9300C87330 /* Debug */,
+				A4A3DDBA19AD3D9300C87330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4A3DDBB19AD3D9300C87330 /* Build configuration list for PBXNativeTarget "Kinisi ConfigTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A3DDBC19AD3D9300C87330 /* Debug */,
+				A4A3DDBD19AD3D9300C87330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4A3DD7819AD3D9300C87330 /* Project object */;
+}
