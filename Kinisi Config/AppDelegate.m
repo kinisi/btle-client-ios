@@ -8,10 +8,40 @@
 
 #import "AppDelegate.h"
 
+// Examples from http://web.stalliance.no/blelogg/?page_id=131
+
 @implementation AppDelegate
+- (void)centralManagerDidUpdateState:(CBCentralManager *)central {
+    self.centralmanagerready = false;
+    switch (central.state) {
+        case CBCentralManagerStatePoweredOff:
+            NSLog(@"CoreBluetooth BLE hardware is powered off");
+            break;
+        case CBCentralManagerStatePoweredOn:
+            NSLog(@"CoreBluetooth BLE hardware is powered on and ready");
+            self.centralmanagerready = true;
+            break;
+        case CBCentralManagerStateResetting:
+            NSLog(@"CoreBluetooth BLE hardware is resetting");
+            break;
+        case CBCentralManagerStateUnauthorized:
+            NSLog(@"CoreBluetooth BLE state is unauthorized");
+            break;
+        case CBCentralManagerStateUnknown:
+            NSLog(@"CoreBluetooth BLE state is unknown");
+            break;
+        case CBCentralManagerStateUnsupported:
+            NSLog(@"CoreBluetooth BLE hardware is unsupported on this platform");
+            break;
+        default:
+            break;
+    }
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    _centralmanager = [[CBCentralManager alloc] initWithDelegate:self queue:nil options:nil];
     // Override point for customization after application launch.
     return YES;
 }

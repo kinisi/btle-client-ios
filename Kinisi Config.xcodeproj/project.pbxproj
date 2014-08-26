@@ -399,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kinisi Config/Kinisi Config-Prefix.pch";
 				INFOPLIST_FILE = "Kinisi Config/Kinisi Config-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -412,6 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kinisi Config/Kinisi Config-Prefix.pch";
 				INFOPLIST_FILE = "Kinisi Config/Kinisi Config-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -476,6 +478,7 @@
 				A4A3DDBA19AD3D9300C87330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4A3DDBB19AD3D9300C87330 /* Build configuration list for PBXNativeTarget "Kinisi ConfigTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +487,7 @@
 				A4A3DDBD19AD3D9300C87330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
